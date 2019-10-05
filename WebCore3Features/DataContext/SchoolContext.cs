@@ -1,12 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
 using WebCore3Features.Dal.Models;
 
 namespace WebCore3Features.Web.DataContext
 {
-    public class SchoolContext : DbContext
+    public class SchoolContext : IdentityDbContext
     {
         public SchoolContext(DbContextOptions<SchoolContext> options)
             : base(options)
@@ -20,6 +20,8 @@ namespace WebCore3Features.Web.DataContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Course>().ToTable("Course");
             modelBuilder.Entity<Enrollment>().ToTable("Enrollment");
             modelBuilder.Entity<Student>().ToTable("Student");

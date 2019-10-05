@@ -11,3 +11,5 @@
 /WebCore3Features.Bal/obj
 /WebCore3Features.Bal/bin/Debug/netstandard2.0
 /WebCore3Features/obj
+/WebCore3Features.Identity.Web/bin/Debug/netcoreapp3.0
+/WebCore3Features.Identity.Web/obj
