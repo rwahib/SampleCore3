@@ -1,6 +1,6 @@
 using System;
 
-namespace WebCore3Features.Models
+namespace WebCore3Features.Web.Models
 {
     public class ErrorViewModel
     {

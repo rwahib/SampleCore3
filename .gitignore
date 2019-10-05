@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/WebCore3Features
+/WebCore3Features/bin/Debug/netcoreapp3.0
+/WebCore3Features.Runner/bin/Debug/netcoreapp3.0
+/WebCore3Features.Runner/obj
+/WebCore3Features.Dal/obj
+/WebCore3Features.Dal/bin/Debug/netstandard2.0
+/WebCore3Features.Bal/obj
+/WebCore3Features.Bal/bin/Debug/netstandard2.0
+/WebCore3Features/obj
