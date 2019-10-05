@@ -27,9 +27,6 @@ namespace WebCore3Features.Web.Migrations
                     b.Property<int>("Credits")
                         .HasColumnType("int");
 
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
